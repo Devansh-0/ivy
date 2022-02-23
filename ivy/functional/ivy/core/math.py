@@ -3,7 +3,9 @@ Collection of math Ivy functions.
 """
 
 # local
+import ivy
 from ivy.framework_handler import current_framework as _cur_framework
+from typing import Union
 
 
 def sin(x):
@@ -193,3 +195,6 @@ def divide(x1, x2):
              determined by Type Promotion Rules.
     """
     return x1 / x2
+
+
+

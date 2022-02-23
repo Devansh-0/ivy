@@ -89,7 +89,7 @@ def current_framework(*args, **kwargs):
     return f
 
 
-def set_framework(f):
+def set_framework(f: object) -> object:
     global ivy_original_dict
     global ivy_original_fn_dict
     if not framework_stack:

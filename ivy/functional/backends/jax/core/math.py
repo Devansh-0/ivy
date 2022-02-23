@@ -22,3 +22,4 @@ atanh = _jnp.arctanh
 log = _jnp.log
 exp = _jnp.exp
 erf = _jax.scipy.special.erf
+remainder = _jnp.remainder(x1, x2)
